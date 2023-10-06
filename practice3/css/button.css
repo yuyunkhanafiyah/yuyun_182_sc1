@@ -1,0 +1,20 @@
+.buttonback {
+    background-color: #00b3ff;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 70%;
+    cursor: pointer;
+}
+  
+  .buttonback:hover {
+    background-color: white;
+    color: #000000;
+    border: 2px solid #000000;
+}
+  
