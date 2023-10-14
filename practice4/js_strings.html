@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Strings</title>
+        <link rel="stylesheet" href="css/button.css">
+    </head>
+<body>
+    <button class="buttonback">
+        <a href="index.html">Back</a>
+    </button>
+<p>Calculate Length of Inputted String</p>
+
+<label for="inputText">Enter a string:</label>
+<input type="text" id="inputText" oninput="calculateLength()">
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+function calculateLength() {
+    let inputText = document.getElementById("inputText").value;
+    document.getElementById("demo").innerHTML = inputText.length;
+}
+</script>
+
+</body>
+</html>

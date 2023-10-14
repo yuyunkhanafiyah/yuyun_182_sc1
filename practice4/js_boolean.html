@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Booleans</title>
+    <link rel="stylesheet" href="css/button.css">
+</head>
+<body>
+    <button class="buttonback">
+        <a href="index.html">Back</a>
+    </button>
+    <p>Soal: Apakah Lumba-lumba mamalia?</p>
+    <label><input type="radio" name="jawaban" value="true"> Benar</label><br>
+    <label><input type="radio" name="jawaban" value="false"> Salah</label><br>
+    <button onclick="cekJawaban()">Submit</button>
+    <p id="feedback"></p>
+
+    <script>
+        function cekJawaban() {
+            var jawaban = document.querySelector('input[name="jawaban"]:checked').value;
+            var feedbackElement = document.getElementById('feedback');
+
+            if (jawaban === 'true') {
+                feedbackElement.textContent = 'Jawaban benar!';
+            } else {
+                feedbackElement.textContent = 'Jawaban salah. Coba lagi.';
+            }
+        }
+    </script>
+</body>
+</html>

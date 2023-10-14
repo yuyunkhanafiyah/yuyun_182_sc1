@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Dates</title>
+        <link rel="stylesheet" href="css/button.css">
+    </head>
+<body>
+    <button class="buttonback">
+        <a href="index.html">Back</a>
+    </button>
+<br>
+<label for="dateInput">Select a date:</label>
+<input type="date" id="dateInput" onchange="displaySelectedDate()">
+
+<p>Selected date:</p>
+<p id="demo"></p>
+
+<script>
+function displaySelectedDate() {
+    const selectedDate = document.getElementById("dateInput").value;
+    const d = new Date(selectedDate);
+    document.getElementById("demo").innerHTML = d;
+}
+</script>
+</body>
+</html>
