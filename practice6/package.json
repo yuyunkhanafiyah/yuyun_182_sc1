@@ -1,0 +1,25 @@
+{
+  "name": "pemweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyunkhanafiyah/yuyun_182_sc1.git"
+  },
+  "keywords": [
+    "0306Yuyunkh!"
+  ],
+  "author": "yuyun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyunkhanafiyah/yuyun_182_sc1/issues"
+  },
+  "homepage": "https://github.com/yuyunkhanafiyah/yuyun_182_sc1#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.0"
+  }
+}
